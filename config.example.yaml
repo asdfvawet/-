@@ -1,0 +1,25 @@
+runtime:
+  mode: paper            # paper | live
+  base_ccy: KRW
+  loop_interval_sec: 30
+  max_daily_loss_pct: 2.0
+  max_position_pct: 10.0
+  kill_switch_file: KILL_SWITCH
+  telegram_token: ""
+  telegram_chat_id: ""
+
+broker:
+  upbit_access_key: ""
+  upbit_secret_key: ""
+  kiwoom_enabled: false
+
+universe:
+  - symbol: KRW-BTC
+    asset_class: crypto_spot
+    strategy: trend_following
+  - symbol: KRW-ETH
+    asset_class: crypto_spot
+    strategy: mean_reversion
+  - symbol: KRW-XRP
+    asset_class: crypto_spot
+    strategy: breakout

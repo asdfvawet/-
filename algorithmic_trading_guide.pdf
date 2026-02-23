@@ -1,0 +1,1317 @@
+%PDF-1.4
+%
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+2 0 obj
+<< /Length 1462 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(# ?? ???? ???? ?? ?? ??? \(Python ??\)) Tj
+T* () Tj
+T* (??: Codex) Tj
+T* (??: 1.0) Tj
+T* () Tj
+T* (---) Tj
+T* () Tj
+T* (## 0. ?? ????? \(??\)) Tj
+T* () Tj
+T* (- ? ??? **????? ???**? ??? ? ?? ???? ?????.) Tj
+T* (- ???, ??? ???? ??? **?? ?? ??? ??? ???**???.) Tj
+T* (- ?? ????? ????? ??????, ???? ?? ???? ??????.) Tj
+T* (- ??? ??? **?? + ????? + ???? + ????**? ?? ??? ????.) Tj
+T* () Tj
+T* (---) Tj
+T* () Tj
+T* (## 1. ? Python? ?????) Tj
+T* () Tj
+T* (????\(??? ???, ????, ???, ??, ???\)? ??? ? Python? ?? ??????.) Tj
+T* () Tj
+T* (??:) Tj
+T* (1. ??/??? ????? ???? ?? ? \(`pandas`, `numpy`, `backtrader`, `vectorbt`, `ccxt` ?\)) Tj
+T* (2. ???/???? ??? ?? \(REST/WebSocket\)) Tj
+T* (3. ?? ?? ???? ?? \(Linux/Windows ?? ??\)) Tj
+T* (4. ???? ???? ?? ??? ?? ??) Tj
+T* (5. ?? C++/Rust/Java ????? ??? ????? ??? ?? ??) Tj
+T* () Tj
+T* (---) Tj
+T* () Tj
+T* (## 2. ? ?? ????) Tj
+T* () Tj
+T* (??? ????? ?? 7???? ?? ???.) Tj
+T* () Tj
+T* (1. **??? ??**: ??/??/??/??/??/????? ??) Tj
+T* (2. **?? ??**: ?? ??, ?? ?????, ????) Tj
+T* (3. **????? ??**: ????, ????, ????) Tj
+T* (4. **?? ??**: ?? ???, ?? ??, ???) Tj
+T* (5. **??? ??**: ??? ??, ?? ???, ??? ???) Tj
+T* (6. **?? ??**: ??, ????, ??, ????, ???) Tj
+T* (7. **???? ??**: ????, ????, ????) Tj
+T* () Tj
+T* (---) Tj
+T* () Tj
+T* (## 3. ??/?? ?? \(Windows / Mac\)) Tj
+T* () Tj
+T* (### 3.1 ?? ??) Tj
+T* () Tj
+T* (1. Python 3.11 ??) Tj
+T* (2. ???? ?? ??) Tj
+T* (3. ???? ??) Tj
+T* (4. ??? ??) Tj
+T* () Tj
+ET
+endstream
+endobj
+3 0 obj
+<< /Length 1405 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(??:) Tj
+T* () Tj
+T* (```bash) Tj
+T* (python -m venv .venv) Tj
+T* (source .venv/bin/activate   # Windows? .venv\\Scripts\\activate) Tj
+T* (pip install -r requirements.txt) Tj
+T* (cp config.example.yaml config.yaml) Tj
+T* (```) Tj
+T* () Tj
+T* (### 3.2 Windows + ????\(??/????, ??/??\)) Tj
+T* () Tj
+T* (- ?? OpenAPI+? ????? Windows ??? ?????.) Tj
+T* (- HTS/???? ??, API ??, ????, ??? ?? ??? ?????.) Tj
+T* (- ? ??? ??? **??? ?????**? ????, ?? ?? ?? ??? `pykiwoom` ???? ?? ???? ???.) Tj
+T* () Tj
+T* (### 3.3 Mac) Tj
+T* () Tj
+T* (- ??\(???\) ?? ????/????/??? Mac??? ??? ??) Tj
+T* (- ?? OpenAPI ???? ?? Windows VM ?? ?? Windows ?? ??) Tj
+T* () Tj
+T* (---) Tj
+T* () Tj
+T* (## 4. ??? ??/??/???? ??) Tj
+T* () Tj
+T* (### 4.1 ??? ??) Tj
+T* () Tj
+T* (- ??: OHLCV \(??/??/??/??/???\)) Tj
+T* (- ??: ????, ????, ???\(????\), ?????, ?? ??) Tj
+T* () Tj
+T* (### 4.2 ??) Tj
+T* () Tj
+T* (- ??? ??\(KST/UTC ?? ??\)) Tj
+T* (- ??? ?? ?? ??\(????/??\)) Tj
+T* (- ??? ?? ??\(???? ???\)) Tj
+T* (- ????/??/???? ??\(??\)) Tj
+T* () Tj
+T* (### 4.3 ?????? ??? ??? ??) Tj
+T* () Tj
+T* (- ???) Tj
+T* (- ????) Tj
+T* (- ????\(????\)) Tj
+T* (- ???\(????\)) Tj
+T* (- ??/????\(????\)) Tj
+T* () Tj
+T* (### 4.4 ?? ??? ???) Tj
+T* () Tj
+T* (1. **???? ????**: ?? ??? ?? ??) Tj
+T* (2. **????? ????**: ?? ?? ??) Tj
+T* (3. **????\(????\)**: ???? ??? + ?????) Tj
+T* (4. **??? ???**: ?? ?? ?? ??? ??) Tj
+T* () Tj
+T* (---) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Length 1342 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+() Tj
+T* (## 5. ?? ?? ?? \(???? ?? ?? ??\)) Tj
+T* () Tj
+T* (??? ??? ??? ?? ?????. ? ??? ??/??/???? ?? ??? ?????.) Tj
+T* () Tj
+T* (### 5.1 ???? \(Trend Following\)) Tj
+T* () Tj
+T* (- ????: ??? ? ??, ??? ? ??) Tj
+T* (- ??: ???? ??, ?? ??, ADX ??) Tj
+T* (- ???: ??? ??\(????\)) Tj
+T* (- ????: ??? ???? + ?? ??) Tj
+T* () Tj
+T* (### 5.2 ???? \(Mean Reversion\)) Tj
+T* () Tj
+T* (- ????: ??? ??? ???? ??) Tj
+T* (- ??: ?????, RSI ???, z-score) Tj
+T* (- ???: ??? ????? ? ??) Tj
+T* (- ????: ????? ?? ???) Tj
+T* () Tj
+T* (### 5.3 ?????? / ???) Tj
+T* () Tj
+T* (- ????: ??? ?? ? ?? ??) Tj
+T* (- ??: N? ?? ??, ??? ??) Tj
+T* (- ???: ??? ??????) Tj
+T* (- ????: ??? ?? ?? ??) Tj
+T* () Tj
+T* (### 5.4 ????? ??? \(??/????\)) Tj
+T* () Tj
+T* (- ????: ???? ?? ?? ??) Tj
+T* (- ??: ??/?? ??? ?? + ????) Tj
+T* (- ???: ?? ??\(?? ??\)) Tj
+T* (- ????: ???? ?? ??) Tj
+T* () Tj
+T* (### 5.5 ??/??? ?? \(Stat-Arb\)) Tj
+T* () Tj
+T* (- ????: ??? ??? ???? ??) Tj
+T* (- ??: pair selection + z-score spread) Tj
+T* (- ???: ??? ?? ??) Tj
+T* (- ????: ????/??? ?? ??) Tj
+T* () Tj
+T* (### 5.6 ????/??) Tj
+T* () Tj
+T* (- ????: ?? ???? ??? ??) Tj
+T* (- ??: ????, ????, ????) Tj
+T* (- ???: ??????) Tj
+T* (- ????: ???? ??) Tj
+T* () Tj
+T* (### 5.7 ??? ???) Tj
+T* () Tj
+T* (- ????: ??, ??, ???? ? ??? ??) Tj
+T* (- ??: ??? ??? + ????) Tj
+T* (- ???: ???? ??) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Length 1185 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(- ????: ????? ????) Tj
+T* () Tj
+T* (### 5.8 ?? ??? ??) Tj
+T* () Tj
+T* (- ????: ?????\(IV\) vs ?????\(RV\) ??) Tj
+T* (- ??: ????, ???/?????, ?? ????) Tj
+T* (- ???: ? ???, ?? ??) Tj
+T* (- ????: ???\(Delta/Gamma/Vega/Theta\) ???) Tj
+T* () Tj
+T* (### 5.9 ?? ??/??-?? ????) Tj
+T* () Tj
+T* (- ????: ????\(???/?????\) ??) Tj
+T* (- ??: ???? ??, ??????) Tj
+T* (- ???: ???/??? ???) Tj
+T* (- ????: ?? ?? ??) Tj
+T* () Tj
+T* (### 5.10 ???? ??) Tj
+T* () Tj
+T* (- ??? ??, ???? ????, ??? ???) Tj
+T* (- ???: ???/????/????/??) Tj
+T* (- ????: ??? ?? ??) Tj
+T* () Tj
+T* (### 5.11 ???/??????) Tj
+T* () Tj
+T* (- ?????, ????, ????) Tj
+T* (- ???: ??\(latency\), ???, ???) Tj
+T* (- ????: ????? ??? ?? ?? ??) Tj
+T* () Tj
+T* (### 5.12 ML/??? ??) Tj
+T* () Tj
+T* (- ??: ???? + ???? ?? ??) Tj
+T* (- ???: ??? ??, ????) Tj
+T* (- ????: ?? ???? ?? PnL/??? ??) Tj
+T* () Tj
+T* (---) Tj
+T* () Tj
+T* (## 6. ????/????/??? ??/??) Tj
+T* () Tj
+T* (### 6.1 ????) Tj
+T* () Tj
+T* (- ???/???/??? ?? ??) Tj
+T* (- ?? ?? ? ??? ?? ??) Tj
+T* (- ???? ???? ??) Tj
+T* () Tj
+T* (### 6.2 ????) Tj
+T* () Tj
+T* (- API ????) Tj
+T* (- ?? ??) Tj
+T* (- ??? ????) Tj
+T* (- ???? ??) Tj
+T* () Tj
+T* (### 6.3 ??? ??) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Length 1173 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+() Tj
+T* (- ???/??/??? ?? DB? ??) Tj
+T* (- ???? ??? ? DB ???? ??) Tj
+T* (- ?? ? ??? ?? ??? ??\(reconcile\)) Tj
+T* () Tj
+T* (### 6.4 ??/??) Tj
+T* () Tj
+T* (- ?? ??, ?? ??, ?? ?? ??) Tj
+T* (- ????/?? ??) Tj
+T* (- ???? ? ?? ??) Tj
+T* () Tj
+T* (### 6.5 ????) Tj
+T* () Tj
+T* (- ?? ??\(`KILL_SWITCH`\) ?? ? ???? ??) Tj
+T* (- ??? ?? ?? ? ?? ??) Tj
+T* (- ??? ?? ?? ?? ? ????) Tj
+T* () Tj
+T* (---) Tj
+T* () Tj
+T* (## 7. ? ???? ?? ???) Tj
+T* () Tj
+T* (### 7.1 ?? ??) Tj
+T* () Tj
+T* (- `trading_system.py`: ??/??/????/???/?? ??) Tj
+T* (- `config.example.yaml`: ?? ???) Tj
+T* (- `requirements.txt`: ??? ??) Tj
+T* () Tj
+T* (### 7.2 ?? ??) Tj
+T* () Tj
+T* (```bash) Tj
+T* (pip install -r requirements.txt) Tj
+T* (cp config.example.yaml config.yaml) Tj
+T* (python trading_system.py) Tj
+T* (```) Tj
+T* () Tj
+T* (### 7.3 ????? ??) Tj
+T* () Tj
+T* (```bash) Tj
+T* (BACKTEST_ONLY=1 python trading_system.py) Tj
+T* (```) Tj
+T* () Tj
+T* (### 7.4 ??? ??) Tj
+T* () Tj
+T* (1. `config.yaml`? `runtime.mode: live`? ??) Tj
+T* (2. ??? ? ??) Tj
+T* (3. ?? ?? ?? ?? ? ???) Tj
+T* (4. ??/??? ??? ??) Tj
+T* () Tj
+T* (---) Tj
+T* () Tj
+T* (## 8. ?? ?? ??? \(?? ? ??\)) Tj
+T* () Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Length 1372 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(1??\(1~2?\): Python ?? + ?? ??/?? ??  ) Tj
+T* (2??\(2~4?\): ???? ???? ?? + ???? ???  ) Tj
+T* (3??\(4~8?\): ???? ????? + ?? ??? ??  ) Tj
+T* (4??\(2~3??\): ??? ????/??/?? ???  ) Tj
+T* (5??\(??\): ?????, ????, ?? ?? ????) Tj
+T* () Tj
+T* (---) Tj
+T* () Tj
+T* (## 9. ???? ???? \(?? ??\)) Tj
+T* () Tj
+T* (### 9.1 ????/????/??/?? \(??\)) Tj
+T* () Tj
+T* (- ?? ?? ??, ??/?? ?? ??, ??? ??? ?? ??) Tj
+T* (- ??/??? ??/???/??? ??) Tj
+T* (- API ?? ??/?? ?? ?? ??) Tj
+T* () Tj
+T* (### 9.2 ?? ??/?? \(??? ??\)) Tj
+T* () Tj
+T* (- 24/7 ????? ?? ??/??? ?? ??? ???) Tj
+T* (- ??? ?? ???? ?? ??) Tj
+T* (- ??? ???\(??/????/????\) ??) Tj
+T* () Tj
+T* (---) Tj
+T* () Tj
+T* (## 10. ??? ?????) Tj
+T* () Tj
+T* (- [ ] ???? ?? ?? ??) Tj
+T* (- [ ] ???/????/?? ??) Tj
+T* (- [ ] ??? ??? ?? ??) Tj
+T* (- [ ] ???/???? ???? ??) Tj
+T* (- [ ] ??? ?? + ?? ?? ??) Tj
+T* (- [ ] ????/?? ??? ??) Tj
+T* (- [ ] ?? ???? ???? ??) Tj
+T* () Tj
+T* (---) Tj
+T* () Tj
+T* (# ?? A. ?? ?? ??) Tj
+T* () Tj
+T* (## A-1\) `trading_system.py`) Tj
+T* () Tj
+T* (```python) Tj
+T* (#!/usr/bin/env python3) Tj
+T* (""") Tj
+T* (???? ???? ???? ??? \(?? + ?? ??? ???\)) Tj
+T* (- ?? ??: PAPER\(??? ????\)) Tj
+T* (- ?? ???? LIVE\(???\) ?? ??) Tj
+T* (- ?? ???: ??/????, ??, ??, ?? ??/??\(??? ??\)) Tj
+T* () Tj
+T* (??:) Tj
+T* (- ? ??? '?? ?? ? ???'???.) Tj
+T* (- ??? ?? ??? ????/?????/?? ??? ?????.) Tj
+T* (""") Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Length 1338 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+() Tj
+T* (from __future__ import annotations) Tj
+T* () Tj
+T* (import dataclasses) Tj
+T* (import datetime as dt) Tj
+T* (import enum) Tj
+T* (import hashlib) Tj
+T* (import hmac) Tj
+T* (import json) Tj
+T* (import logging) Tj
+T* (import math) Tj
+T* (import os) Tj
+T* (import sqlite3) Tj
+T* (import sys) Tj
+T* (import threading) Tj
+T* (import time) Tj
+T* (import traceback) Tj
+T* (import uuid) Tj
+T* (from abc import ABC, abstractmethod) Tj
+T* (from collections import deque) Tj
+T* (from pathlib import Path) Tj
+T* (from typing import Any, Deque, Dict, Iterable, List, Optional, Tuple) Tj
+T* () Tj
+T* (import requests) Tj
+T* (import yaml) Tj
+T* () Tj
+T* () Tj
+T* (# -------------------------) Tj
+T* (# 1\) ?? ??? ??) Tj
+T* (# -------------------------) Tj
+T* () Tj
+T* (class Mode\(str, enum.Enum\):) Tj
+T* (    PAPER = "paper") Tj
+T* (    LIVE = "live") Tj
+T* () Tj
+T* () Tj
+T* (class AssetClass\(str, enum.Enum\):) Tj
+T* (    KR_STOCK = "kr_stock") Tj
+T* (    US_STOCK = "us_stock") Tj
+T* (    FUTURES = "futures") Tj
+T* (    OPTIONS = "options") Tj
+T* (    CRYPTO_SPOT = "crypto_spot") Tj
+T* (    CRYPTO_FUTURES = "crypto_futures") Tj
+T* () Tj
+T* () Tj
+T* (class Side\(str, enum.Enum\):) Tj
+T* (    BUY = "buy") Tj
+T* (    SELL = "sell") Tj
+T* () Tj
+T* () Tj
+T* (@dataclasses.dataclass) Tj
+T* (class Candle:) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Length 1272 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(    ts: dt.datetime) Tj
+T* (    open: float) Tj
+T* (    high: float) Tj
+T* (    low: float) Tj
+T* (    close: float) Tj
+T* (    volume: float) Tj
+T* () Tj
+T* () Tj
+T* (@dataclasses.dataclass) Tj
+T* (class Signal:) Tj
+T* (    symbol: str) Tj
+T* (    asset_class: AssetClass) Tj
+T* (    side: Side) Tj
+T* (    confidence: float) Tj
+T* (    reason: str) Tj
+T* () Tj
+T* () Tj
+T* (@dataclasses.dataclass) Tj
+T* (class Position:) Tj
+T* (    symbol: str) Tj
+T* (    asset_class: AssetClass) Tj
+T* (    qty: float) Tj
+T* (    avg_price: float) Tj
+T* () Tj
+T* () Tj
+T* (@dataclasses.dataclass) Tj
+T* (class OrderRequest:) Tj
+T* (    symbol: str) Tj
+T* (    asset_class: AssetClass) Tj
+T* (    side: Side) Tj
+T* (    qty: float) Tj
+T* (    order_type: str = "market") Tj
+T* (    price: Optional[float] = None) Tj
+T* () Tj
+T* () Tj
+T* (@dataclasses.dataclass) Tj
+T* (class FillEvent:) Tj
+T* (    order_id: str) Tj
+T* (    symbol: str) Tj
+T* (    asset_class: AssetClass) Tj
+T* (    side: Side) Tj
+T* (    qty: float) Tj
+T* (    price: float) Tj
+T* (    fee: float) Tj
+T* (    ts: dt.datetime) Tj
+T* () Tj
+T* () Tj
+T* (# -------------------------) Tj
+T* (# 2\) ??/??/?? ??) Tj
+T* (# -------------------------) Tj
+T* () Tj
+T* (@dataclasses.dataclass) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Length 2010 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(class RuntimeConfig:) Tj
+T* (    mode: Mode) Tj
+T* (    base_ccy: str) Tj
+T* (    loop_interval_sec: int) Tj
+T* (    max_daily_loss_pct: float) Tj
+T* (    max_position_pct: float) Tj
+T* (    kill_switch_file: str) Tj
+T* (    telegram_token: str) Tj
+T* (    telegram_chat_id: str) Tj
+T* () Tj
+T* () Tj
+T* (@dataclasses.dataclass) Tj
+T* (class BrokerConfig:) Tj
+T* (    upbit_access_key: str) Tj
+T* (    upbit_secret_key: str) Tj
+T* (    kiwoom_enabled: bool) Tj
+T* () Tj
+T* () Tj
+T* (@dataclasses.dataclass) Tj
+T* (class UniverseItem:) Tj
+T* (    symbol: str) Tj
+T* (    asset_class: AssetClass) Tj
+T* (    strategy: str) Tj
+T* () Tj
+T* () Tj
+T* (@dataclasses.dataclass) Tj
+T* (class Config:) Tj
+T* (    runtime: RuntimeConfig) Tj
+T* (    broker: BrokerConfig) Tj
+T* (    universe: List[UniverseItem]) Tj
+T* () Tj
+T* () Tj
+T* (class ConfigLoader:) Tj
+T* (    @staticmethod) Tj
+T* (    def load\(path: str\) -> Config:) Tj
+T* (        with open\(path, "r", encoding="utf-8"\) as f:) Tj
+T* (            raw = yaml.safe_load\(f\)) Tj
+T* () Tj
+T* (        runtime = RuntimeConfig\() Tj
+T* (            mode=Mode\(raw["runtime"]["mode"]\),) Tj
+T* (            base_ccy=raw["runtime"].get\("base_ccy", "KRW"\),) Tj
+T* (            loop_interval_sec=int\(raw["runtime"].get\("loop_interval_sec", 30\)\),) Tj
+T* (            max_daily_loss_pct=float\(raw["runtime"].get\("max_daily_loss_pct", 2.0\)\),) Tj
+T* (            max_position_pct=float\(raw["runtime"].get\("max_position_pct", 10.0\)\),) Tj
+T* (            kill_switch_file=raw["runtime"].get\("kill_switch_file", "KILL_SWITCH"\),) Tj
+T* (            telegram_token=raw["runtime"].get\("telegram_token", ""\),) Tj
+T* (            telegram_chat_id=raw["runtime"].get\("telegram_chat_id", ""\),) Tj
+T* (        \)) Tj
+T* () Tj
+T* (        broker = BrokerConfig\() Tj
+T* (            upbit_access_key=raw["broker"].get\("upbit_access_key", ""\),) Tj
+T* (            upbit_secret_key=raw["broker"].get\("upbit_secret_key", ""\),) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Length 1951 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(            kiwoom_enabled=bool\(raw["broker"].get\("kiwoom_enabled", False\)\),) Tj
+T* (        \)) Tj
+T* () Tj
+T* (        universe = [) Tj
+T* (            UniverseItem\() Tj
+T* (                symbol=i["symbol"],) Tj
+T* (                asset_class=AssetClass\(i["asset_class"]\),) Tj
+T* (                strategy=i["strategy"],) Tj
+T* (            \)) Tj
+T* (            for i in raw.get\("universe", []\)) Tj
+T* (        ]) Tj
+T* () Tj
+T* (        return Config\(runtime=runtime, broker=broker, universe=universe\)) Tj
+T* () Tj
+T* () Tj
+T* (def setup_logger\(log_path: str = "trading.log"\) -> logging.Logger:) Tj
+T* (    logger = logging.getLogger\("algo"\)) Tj
+T* (    logger.setLevel\(logging.INFO\)) Tj
+T* (    logger.handlers.clear\(\)) Tj
+T* () Tj
+T* (    fmt = logging.Formatter\("%\(asctime\)s | %\(levelname\)s | %\(message\)s"\)) Tj
+T* () Tj
+T* (    fh = logging.FileHandler\(log_path, encoding="utf-8"\)) Tj
+T* (    fh.setFormatter\(fmt\)) Tj
+T* (    logger.addHandler\(fh\)) Tj
+T* () Tj
+T* (    sh = logging.StreamHandler\(sys.stdout\)) Tj
+T* (    sh.setFormatter\(fmt\)) Tj
+T* (    logger.addHandler\(sh\)) Tj
+T* () Tj
+T* (    return logger) Tj
+T* () Tj
+T* () Tj
+T* (class StateStore:) Tj
+T* (    def __init__\(self, db_path: str = "state.db"\):) Tj
+T* (        self.conn = sqlite3.connect\(db_path, check_same_thread=False\)) Tj
+T* (        self._init_tables\(\)) Tj
+T* (        self.lock = threading.Lock\(\)) Tj
+T* () Tj
+T* (    def _init_tables\(self\) -> None:) Tj
+T* (        c = self.conn.cursor\(\)) Tj
+T* (        c.execute\() Tj
+T* (            """) Tj
+T* (            CREATE TABLE IF NOT EXISTS positions \() Tj
+T* (                symbol TEXT,) Tj
+T* (                asset_class TEXT,) Tj
+T* (                qty REAL,) Tj
+T* (                avg_price REAL,) Tj
+T* (                PRIMARY KEY\(symbol, asset_class\)) Tj
+T* (            \)) Tj
+T* (            """) Tj
+T* (        \)) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Length 2178 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(        c.execute\() Tj
+T* (            """) Tj
+T* (            CREATE TABLE IF NOT EXISTS fills \() Tj
+T* (                order_id TEXT,) Tj
+T* (                symbol TEXT,) Tj
+T* (                asset_class TEXT,) Tj
+T* (                side TEXT,) Tj
+T* (                qty REAL,) Tj
+T* (                price REAL,) Tj
+T* (                fee REAL,) Tj
+T* (                ts TEXT) Tj
+T* (            \)) Tj
+T* (            """) Tj
+T* (        \)) Tj
+T* (        c.execute\() Tj
+T* (            """) Tj
+T* (            CREATE TABLE IF NOT EXISTS kv \() Tj
+T* (                k TEXT PRIMARY KEY,) Tj
+T* (                v TEXT) Tj
+T* (            \)) Tj
+T* (            """) Tj
+T* (        \)) Tj
+T* (        self.conn.commit\(\)) Tj
+T* () Tj
+T* (    def upsert_position\(self, p: Position\) -> None:) Tj
+T* (        with self.lock:) Tj
+T* (            self.conn.execute\() Tj
+T* (                "INSERT OR REPLACE INTO positions\(symbol, asset_class, qty, avg_price\) VALUES\(?,?,?,?\)",) Tj
+T* (                \(p.symbol, p.asset_class.value, p.qty, p.avg_price\),) Tj
+T* (            \)) Tj
+T* (            self.conn.commit\(\)) Tj
+T* () Tj
+T* (    def get_positions\(self\) -> Dict[Tuple[str, AssetClass], Position]:) Tj
+T* (        rows = self.conn.execute\("SELECT symbol, asset_class, qty, avg_price FROM positions"\).fetchall\(\)) Tj
+T* (        return {) Tj
+T* (            \(r[0], AssetClass\(r[1]\)\): Position\(symbol=r[0], asset_class=AssetClass\(r[1]\), qty=r[2], avg_price=r[3]\)) Tj
+T* (            for r in rows) Tj
+T* (        }) Tj
+T* () Tj
+T* (    def add_fill\(self, fill: FillEvent\) -> None:) Tj
+T* (        with self.lock:) Tj
+T* (            self.conn.execute\() Tj
+T* (                "INSERT INTO fills VALUES\(?,?,?,?,?,?,?,?\)",) Tj
+T* (                \() Tj
+T* (                    fill.order_id,) Tj
+T* (                    fill.symbol,) Tj
+T* (                    fill.asset_class.value,) Tj
+T* (                    fill.side.value,) Tj
+T* (                    fill.qty,) Tj
+T* (                    fill.price,) Tj
+T* (                    fill.fee,) Tj
+T* (                    fill.ts.isoformat\(\),) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Length 2148 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(                \),) Tj
+T* (            \)) Tj
+T* (            self.conn.commit\(\)) Tj
+T* () Tj
+T* () Tj
+T* (# -------------------------) Tj
+T* (# 3\) ???/??? ???) Tj
+T* (# -------------------------) Tj
+T* () Tj
+T* (class MarketDataAdapter\(ABC\):) Tj
+T* (    @abstractmethod) Tj
+T* (    def get_recent_candles\(self, symbol: str, asset_class: AssetClass, n: int = 200\) -> List[Candle]:) Tj
+T* (        ...) Tj
+T* () Tj
+T* () Tj
+T* (class BrokerAdapter\(ABC\):) Tj
+T* (    @abstractmethod) Tj
+T* (    def submit_order\(self, req: OrderRequest\) -> FillEvent:) Tj
+T* (        ...) Tj
+T* () Tj
+T* () Tj
+T* (class UpbitAdapter\(MarketDataAdapter, BrokerAdapter\):) Tj
+T* (    BASE_URL = "https://api.upbit.com") Tj
+T* () Tj
+T* (    def __init__\(self, access_key: str, secret_key: str\):) Tj
+T* (        self.access_key = access_key) Tj
+T* (        self.secret_key = secret_key) Tj
+T* () Tj
+T* (    def get_recent_candles\(self, symbol: str, asset_class: AssetClass, n: int = 200\) -> List[Candle]:) Tj
+T* (        # symbol ??: KRW-BTC) Tj
+T* (        if asset_class not in {AssetClass.CRYPTO_SPOT, AssetClass.CRYPTO_FUTURES}:) Tj
+T* (            raise ValueError\("UpbitAdapter only supports crypto"\)) Tj
+T* () Tj
+T* (        url = f"{self.BASE_URL}/v1/candles/minutes/1") Tj
+T* (        resp = requests.get\(url, params={"market": symbol, "count": min\(n, 200\)}, timeout=10\)) Tj
+T* (        resp.raise_for_status\(\)) Tj
+T* (        data = resp.json\(\)) Tj
+T* () Tj
+T* (        candles = []) Tj
+T* (        for row in reversed\(data\):) Tj
+T* (            candles.append\() Tj
+T* (                Candle\() Tj
+T* (                    ts=dt.datetime.fromisoformat\(row["candle_date_time_kst"]\),) Tj
+T* (                    open=float\(row["opening_price"]\),) Tj
+T* (                    high=float\(row["high_price"]\),) Tj
+T* (                    low=float\(row["low_price"]\),) Tj
+T* (                    close=float\(row["trade_price"]\),) Tj
+T* (                    volume=float\(row["candle_acc_trade_volume"]\),) Tj
+T* (                \)) Tj
+T* (            \)) Tj
+T* (        return candles) Tj
+T* () Tj
+ET
+endstream
+endobj
+14 0 obj
+<< /Length 2548 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(    def _auth_headers\(self, params: Dict[str, Any]\) -> Dict[str, str]:) Tj
+T* (        # ???? ?? ??\(??????? pyjwt ?? ?? ??\)) Tj
+T* (        query_string = "&".join\(f"{k}={v}" for k, v in sorted\(params.items\(\)\)\)) Tj
+T* (        qh = hashlib.sha512\(query_string.encode\(\)\).hexdigest\(\)) Tj
+T* (        token = hmac.new\(self.secret_key.encode\(\), qh.encode\(\), hashlib.sha256\).hexdigest\(\)) Tj
+T* (        return {) Tj
+T* (            "Authorization": f"Bearer {self.access_key}.{token}",) Tj
+T* (            "Content-Type": "application/json",) Tj
+T* (        }) Tj
+T* () Tj
+T* (    def submit_order\(self, req: OrderRequest\) -> FillEvent:) Tj
+T* (        if not self.access_key or not self.secret_key:) Tj
+T* (            raise RuntimeError\("Upbit LIVE ???? ???? ?????."\)) Tj
+T* () Tj
+T* (        # ??? ??: API ?? ???. ?? ?? ? Upbit ?? JWT ???? ?? ??.) Tj
+T* (        price = req.price or self.get_recent_candles\(req.symbol, req.asset_class, 1\)[-1].close) Tj
+T* (        fee_rate = 0.0005) Tj
+T* (        fee = abs\(req.qty * price\) * fee_rate) Tj
+T* (        return FillEvent\() Tj
+T* (            order_id=f"upbit-live-{uuid.uuid4\(\).hex[:12]}",) Tj
+T* (            symbol=req.symbol,) Tj
+T* (            asset_class=req.asset_class,) Tj
+T* (            side=req.side,) Tj
+T* (            qty=req.qty,) Tj
+T* (            price=price,) Tj
+T* (            fee=fee,) Tj
+T* (            ts=dt.datetime.now\(\),) Tj
+T* (        \)) Tj
+T* () Tj
+T* () Tj
+T* (class KiwoomAdapter\(MarketDataAdapter, BrokerAdapter\):) Tj
+T* (    """) Tj
+T* (    Kiwoom OpenAPI+ ??? ???.) Tj
+T* (    - Windows + ?? HTS + OpenAPI ?? ?? ??) Tj
+T* (    - ? ???? ????? ????, ???? pykiwoom ?? ?? ??) Tj
+T* (    """) Tj
+T* () Tj
+T* (    def get_recent_candles\(self, symbol: str, asset_class: AssetClass, n: int = 200\) -> List[Candle]:) Tj
+T* (        raise NotImplementedError\("Kiwoom ??? ??? pykiwoom ???? ?????."\)) Tj
+T* () Tj
+T* (    def submit_order\(self, req: OrderRequest\) -> FillEvent:) Tj
+T* (        raise NotImplementedError\("Kiwoom ?? ??? pykiwoom ???? ?????."\)) Tj
+T* () Tj
+T* () Tj
+T* (class PaperBroker\(BrokerAdapter\):) Tj
+T* (    def __init__\(self, data_adapter: MarketDataAdapter\):) Tj
+T* (        self.data_adapter = data_adapter) Tj
+T* () Tj
+T* (    def submit_order\(self, req: OrderRequest\) -> FillEvent:) Tj
+T* (        candles = self.data_adapter.get_recent_candles\(req.symbol, req.asset_class, 1\)) Tj
+T* (        last = candles[-1].close) Tj
+T* (        slippage = last * 0.0008) Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Length 2086 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(        exec_price = last + slippage if req.side == Side.BUY else last - slippage) Tj
+T* (        fee_rate = 0.0005) Tj
+T* (        fee = abs\(req.qty * exec_price\) * fee_rate) Tj
+T* () Tj
+T* (        return FillEvent\() Tj
+T* (            order_id=f"paper-{uuid.uuid4\(\).hex[:12]}",) Tj
+T* (            symbol=req.symbol,) Tj
+T* (            asset_class=req.asset_class,) Tj
+T* (            side=req.side,) Tj
+T* (            qty=req.qty,) Tj
+T* (            price=exec_price,) Tj
+T* (            fee=fee,) Tj
+T* (            ts=dt.datetime.now\(\),) Tj
+T* (        \)) Tj
+T* () Tj
+T* () Tj
+T* (# -------------------------) Tj
+T* (# 4\) ?? ?? ?? ??) Tj
+T* (# -------------------------) Tj
+T* () Tj
+T* (class Strategy\(ABC\):) Tj
+T* (    @abstractmethod) Tj
+T* (    def on_data\(self, symbol: str, asset_class: AssetClass, candles: List[Candle]\) -> Optional[Signal]:) Tj
+T* (        ...) Tj
+T* () Tj
+T* () Tj
+T* (def sma\(vals: List[float], n: int\) -> float:) Tj
+T* (    if len\(vals\) < n:) Tj
+T* (        return float\("nan"\)) Tj
+T* (    return sum\(vals[-n:]\) / n) Tj
+T* () Tj
+T* () Tj
+T* (class TrendFollowingStrategy\(Strategy\):) Tj
+T* (    """SMA ??/????? ????""") Tj
+T* () Tj
+T* (    def on_data\(self, symbol: str, asset_class: AssetClass, candles: List[Candle]\) -> Optional[Signal]:) Tj
+T* (        closes = [c.close for c in candles]) Tj
+T* (        fast = sma\(closes, 20\)) Tj
+T* (        slow = sma\(closes, 100\)) Tj
+T* (        if math.isnan\(fast\) or math.isnan\(slow\):) Tj
+T* (            return None) Tj
+T* (        if fast > slow * 1.001:) Tj
+T* (            return Signal\(symbol, asset_class, Side.BUY, 0.7, "trend_up_sma20>100"\)) Tj
+T* (        if fast < slow * 0.999:) Tj
+T* (            return Signal\(symbol, asset_class, Side.SELL, 0.7, "trend_down_sma20<100"\)) Tj
+T* (        return None) Tj
+T* () Tj
+T* () Tj
+T* (class MeanReversionStrategy\(Strategy\):) Tj
+T* (    """??? ?? ??/?? ??""") Tj
+T* () Tj
+T* (    def on_data\(self, symbol: str, asset_class: AssetClass, candles: List[Candle]\) -> Optional[Signal]:) Tj
+ET
+endstream
+endobj
+16 0 obj
+<< /Length 2191 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(        closes = [c.close for c in candles]) Tj
+T* (        n = 20) Tj
+T* (        if len\(closes\) < n:) Tj
+T* (            return None) Tj
+T* (        m = sum\(closes[-n:]\) / n) Tj
+T* (        var = sum\(\(x - m\) ** 2 for x in closes[-n:]\) / n) Tj
+T* (        std = math.sqrt\(var\)) Tj
+T* (        last = closes[-1]) Tj
+T* (        lower = m - 2 * std) Tj
+T* (        upper = m + 2 * std) Tj
+T* (        if last < lower:) Tj
+T* (            return Signal\(symbol, asset_class, Side.BUY, 0.65, "mr_bollinger_lower"\)) Tj
+T* (        if last > upper:) Tj
+T* (            return Signal\(symbol, asset_class, Side.SELL, 0.65, "mr_bollinger_upper"\)) Tj
+T* (        return None) Tj
+T* () Tj
+T* () Tj
+T* (class BreakoutStrategy\(Strategy\):) Tj
+T* (    """N-?? ?? ??""") Tj
+T* () Tj
+T* (    def on_data\(self, symbol: str, asset_class: AssetClass, candles: List[Candle]\) -> Optional[Signal]:) Tj
+T* (        if len\(candles\) < 30:) Tj
+T* (            return None) Tj
+T* (        recent = candles[-21:-1]) Tj
+T* (        last = candles[-1].close) Tj
+T* (        high = max\(c.high for c in recent\)) Tj
+T* (        low = min\(c.low for c in recent\)) Tj
+T* (        if last > high:) Tj
+T* (            return Signal\(symbol, asset_class, Side.BUY, 0.68, "breakout_20d_high"\)) Tj
+T* (        if last < low:) Tj
+T* (            return Signal\(symbol, asset_class, Side.SELL, 0.68, "breakout_20d_low"\)) Tj
+T* (        return None) Tj
+T* () Tj
+T* () Tj
+T* (STRATEGY_MAP: Dict[str, Strategy] = {) Tj
+T* (    "trend_following": TrendFollowingStrategy\(\),) Tj
+T* (    "mean_reversion": MeanReversionStrategy\(\),) Tj
+T* (    "breakout": BreakoutStrategy\(\),) Tj
+T* (}) Tj
+T* () Tj
+T* () Tj
+T* (# -------------------------) Tj
+T* (# 5\) ???/?????/??) Tj
+T* (# -------------------------) Tj
+T* () Tj
+T* (class RiskManager:) Tj
+T* (    def __init__\(self, max_daily_loss_pct: float, max_position_pct: float\):) Tj
+T* (        self.max_daily_loss_pct = max_daily_loss_pct) Tj
+T* (        self.max_position_pct = max_position_pct) Tj
+T* (        self.day_start_equity: Optional[float] = None) Tj
+T* () Tj
+T* (    def set_day_start\(self, equity: float\) -> None:) Tj
+ET
+endstream
+endobj
+17 0 obj
+<< /Length 2291 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(        self.day_start_equity = equity) Tj
+T* () Tj
+T* (    def check_daily_loss_limit\(self, equity: float\) -> bool:) Tj
+T* (        if self.day_start_equity is None:) Tj
+T* (            self.day_start_equity = equity) Tj
+T* (            return True) Tj
+T* (        pnl_pct = \(equity - self.day_start_equity\) / self.day_start_equity * 100) Tj
+T* (        return pnl_pct > -self.max_daily_loss_pct) Tj
+T* () Tj
+T* (    def size_order\(self, equity: float, price: float\) -> float:) Tj
+T* (        notional = equity * \(self.max_position_pct / 100.0\)) Tj
+T* (        return max\(notional / max\(price, 1e-9\), 0.0\)) Tj
+T* () Tj
+T* () Tj
+T* (class Notifier:) Tj
+T* (    def __init__\(self, token: str, chat_id: str\):) Tj
+T* (        self.token = token) Tj
+T* (        self.chat_id = chat_id) Tj
+T* () Tj
+T* (    def send\(self, msg: str\) -> None:) Tj
+T* (        if not self.token or not self.chat_id:) Tj
+T* (            return) Tj
+T* (        try:) Tj
+T* (            requests.post\() Tj
+T* (                f"https://api.telegram.org/bot{self.token}/sendMessage",) Tj
+T* (                data={"chat_id": self.chat_id, "text": msg},) Tj
+T* (                timeout=5,) Tj
+T* (            \)) Tj
+T* (        except Exception:) Tj
+T* (            pass) Tj
+T* () Tj
+T* () Tj
+T* (class TradingEngine:) Tj
+T* (    def __init__\(self, cfg: Config, logger: logging.Logger\):) Tj
+T* (        self.cfg = cfg) Tj
+T* (        self.logger = logger) Tj
+T* (        self.store = StateStore\(\)) Tj
+T* (        self.positions = self.store.get_positions\(\)) Tj
+T* (        self.notifier = Notifier\(cfg.runtime.telegram_token, cfg.runtime.telegram_chat_id\)) Tj
+T* (        self.risk = RiskManager\(cfg.runtime.max_daily_loss_pct, cfg.runtime.max_position_pct\)) Tj
+T* (        self.cash = 100_000_000.0) Tj
+T* () Tj
+T* (        self.upbit = UpbitAdapter\(cfg.broker.upbit_access_key, cfg.broker.upbit_secret_key\)) Tj
+T* (        self.market_data = self.upbit  # ?? ?? ??) Tj
+T* () Tj
+T* (        if cfg.runtime.mode == Mode.PAPER:) Tj
+T* (            self.broker: BrokerAdapter = PaperBroker\(self.market_data\)) Tj
+T* (        else:) Tj
+T* (            self.broker = self.upbit) Tj
+T* () Tj
+T* (    def _equity\(self\) -> float:) Tj
+T* (        eq = self.cash) Tj
+ET
+endstream
+endobj
+18 0 obj
+<< /Length 2343 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(        for p in self.positions.values\(\):) Tj
+T* (            try:) Tj
+T* (                px = self.market_data.get_recent_candles\(p.symbol, p.asset_class, 1\)[-1].close) Tj
+T* (            except Exception:) Tj
+T* (                px = p.avg_price) Tj
+T* (            eq += p.qty * px) Tj
+T* (        return eq) Tj
+T* () Tj
+T* (    def _kill_switch_on\(self\) -> bool:) Tj
+T* (        return Path\(self.cfg.runtime.kill_switch_file\).exists\(\)) Tj
+T* () Tj
+T* (    def _apply_fill\(self, fill: FillEvent\) -> None:) Tj
+T* (        key = \(fill.symbol, fill.asset_class\)) Tj
+T* (        p = self.positions.get\(key, Position\(fill.symbol, fill.asset_class, 0.0, 0.0\)\)) Tj
+T* () Tj
+T* (        signed_qty = fill.qty if fill.side == Side.BUY else -fill.qty) Tj
+T* (        new_qty = p.qty + signed_qty) Tj
+T* () Tj
+T* (        if fill.side == Side.BUY:) Tj
+T* (            total_cost = p.avg_price * p.qty + fill.price * fill.qty) Tj
+T* (            p.qty = new_qty) Tj
+T* (            p.avg_price = total_cost / p.qty if p.qty > 0 else 0.0) Tj
+T* (            self.cash -= fill.price * fill.qty + fill.fee) Tj
+T* (        else:) Tj
+T* (            self.cash += fill.price * fill.qty - fill.fee) Tj
+T* (            p.qty = new_qty) Tj
+T* (            if p.qty <= 0:) Tj
+T* (                p.avg_price = 0.0) Tj
+T* () Tj
+T* (        self.positions[key] = p) Tj
+T* (        self.store.upsert_position\(p\)) Tj
+T* (        self.store.add_fill\(fill\)) Tj
+T* () Tj
+T* (    def run_once\(self\) -> None:) Tj
+T* (        if self._kill_switch_on\(\):) Tj
+T* (            self.logger.warning\("KILL_SWITCH ??: ?? ??"\)) Tj
+T* (            return) Tj
+T* () Tj
+T* (        eq = self._equity\(\)) Tj
+T* (        if not self.risk.check_daily_loss_limit\(eq\):) Tj
+T* (            self.logger.error\("?? ?? ?? ?? -> ?? ??"\)) Tj
+T* (            self.notifier.send\("[ALGO] ?? ?? ?? ??? ?? ??"\)) Tj
+T* (            return) Tj
+T* () Tj
+T* (        for u in self.cfg.universe:) Tj
+T* (            strategy = STRATEGY_MAP.get\(u.strategy\)) Tj
+T* (            if not strategy:) Tj
+T* (                self.logger.warning\(f"??? ??: {u.strategy}"\)) Tj
+T* (                continue) Tj
+T* () Tj
+T* (            try:) Tj
+T* (                candles = self.market_data.get_recent_candles\(u.symbol, u.asset_class, 200\)) Tj
+ET
+endstream
+endobj
+19 0 obj
+<< /Length 2334 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(                sig = strategy.on_data\(u.symbol, u.asset_class, candles\)) Tj
+T* (                if not sig:) Tj
+T* (                    continue) Tj
+T* () Tj
+T* (                last_px = candles[-1].close) Tj
+T* (                qty = self.risk.size_order\(eq, last_px\) * min\(max\(sig.confidence, 0.1\), 1.0\)) Tj
+T* (                if qty <= 0:) Tj
+T* (                    continue) Tj
+T* () Tj
+T* (                req = OrderRequest\(symbol=u.symbol, asset_class=u.asset_class, side=sig.side, qty=qty\)) Tj
+T* (                fill = self.broker.submit_order\(req\)) Tj
+T* (                self._apply_fill\(fill\)) Tj
+T* () Tj
+T* (                msg = \() Tj
+T* (                    f"ORDER FILLED | {fill.side.value} {fill.symbol} qty={fill.qty:.6f} ") Tj
+T* (                    f"price={fill.price:.2f} fee={fill.fee:.2f} reason={sig.reason}") Tj
+T* (                \)) Tj
+T* (                self.logger.info\(msg\)) Tj
+T* (                self.notifier.send\("[ALGO] " + msg\)) Tj
+T* (            except Exception as e:) Tj
+T* (                self.logger.error\(f"?? ?? ?? {u.symbol}: {e}"\)) Tj
+T* (                self.logger.error\(traceback.format_exc\(\)\)) Tj
+T* () Tj
+T* (    def run_forever\(self\) -> None:) Tj
+T* (        self.logger.info\(f"?? ?? | mode={self.cfg.runtime.mode.value}"\)) Tj
+T* (        self.notifier.send\(f"[ALGO] ?? ?? mode={self.cfg.runtime.mode.value}"\)) Tj
+T* () Tj
+T* (        while True:) Tj
+T* (            start = time.time\(\)) Tj
+T* (            self.run_once\(\)) Tj
+T* (            elapsed = time.time\(\) - start) Tj
+T* (            sleep_s = max\(1, self.cfg.runtime.loop_interval_sec - int\(elapsed\)\)) Tj
+T* (            time.sleep\(sleep_s\)) Tj
+T* () Tj
+T* () Tj
+T* (# -------------------------) Tj
+T* (# 6\) ???? \(???/????/?? ??\)) Tj
+T* (# -------------------------) Tj
+T* () Tj
+T* (@dataclasses.dataclass) Tj
+T* (class BacktestResult:) Tj
+T* (    total_return_pct: float) Tj
+T* (    max_drawdown_pct: float) Tj
+T* (    trades: int) Tj
+T* () Tj
+T* () Tj
+T* (class Backtester:) Tj
+T* (    def __init__\(self, strategy: Strategy, fee_rate: float = 0.0005, slippage_rate: float = 0.0008\):) Tj
+T* (        self.strategy = strategy) Tj
+T* (        self.fee_rate = fee_rate) Tj
+T* (        self.slippage_rate = slippage_rate) Tj
+T* () Tj
+ET
+endstream
+endobj
+20 0 obj
+<< /Length 2477 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(    def run\(self, symbol: str, asset_class: AssetClass, candles: List[Candle], initial_cash: float = 10_000_000\) -> BacktestResult:) Tj
+T* (        cash = initial_cash) Tj
+T* (        qty = 0.0) Tj
+T* (        equity_curve: List[float] = []) Tj
+T* (        trades = 0) Tj
+T* () Tj
+T* (        # ???? ??: t ?? ????? t-1?? ???? ??) Tj
+T* (        for i in range\(120, len\(candles\)\):) Tj
+T* (            history = candles[:i]) Tj
+T* (            sig = self.strategy.on_data\(symbol, asset_class, history\)) Tj
+T* (            px = candles[i].close) Tj
+T* () Tj
+T* (            if sig:) Tj
+T* (                exec_px = px * \(1 + self.slippage_rate if sig.side == Side.BUY else 1 - self.slippage_rate\)) Tj
+T* (                if sig.side == Side.BUY and cash > exec_px:) Tj
+T* (                    buy_qty = \(cash * 0.2\) / exec_px) Tj
+T* (                    fee = buy_qty * exec_px * self.fee_rate) Tj
+T* (                    cash -= buy_qty * exec_px + fee) Tj
+T* (                    qty += buy_qty) Tj
+T* (                    trades += 1) Tj
+T* (                elif sig.side == Side.SELL and qty > 0:) Tj
+T* (                    sell_qty = qty * 0.2) Tj
+T* (                    fee = sell_qty * exec_px * self.fee_rate) Tj
+T* (                    cash += sell_qty * exec_px - fee) Tj
+T* (                    qty -= sell_qty) Tj
+T* (                    trades += 1) Tj
+T* () Tj
+T* (            equity_curve.append\(cash + qty * px\)) Tj
+T* () Tj
+T* (        if not equity_curve:) Tj
+T* (            return BacktestResult\(0.0, 0.0, 0\)) Tj
+T* () Tj
+T* (        total_return = \(equity_curve[-1] - initial_cash\) / initial_cash * 100) Tj
+T* (        peak = equity_curve[0]) Tj
+T* (        mdd = 0.0) Tj
+T* (        for e in equity_curve:) Tj
+T* (            peak = max\(peak, e\)) Tj
+T* (            dd = \(e - peak\) / peak * 100) Tj
+T* (            mdd = min\(mdd, dd\)) Tj
+T* () Tj
+T* (        return BacktestResult\(total_return_pct=total_return, max_drawdown_pct=abs\(mdd\), trades=trades\)) Tj
+T* () Tj
+T* () Tj
+T* (def run_backtest_demo\(\) -> None:) Tj
+T* (    # ??: ??? ???? ?? ??) Tj
+T* (    adapter = UpbitAdapter\("", ""\)) Tj
+T* (    candles = adapter.get_recent_candles\("KRW-BTC", AssetClass.CRYPTO_SPOT, 200\)) Tj
+T* (    bt = Backtester\(TrendFollowingStrategy\(\)\)) Tj
+T* (    res = bt.run\("KRW-BTC", AssetClass.CRYPTO_SPOT, candles\)) Tj
+T* (    print\("[BACKTEST]", dataclasses.asdict\(res\)\)) Tj
+T* () Tj
+T* () Tj
+ET
+endstream
+endobj
+21 0 obj
+<< /Length 1461 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(def main\(\) -> None:) Tj
+T* (    cfg_path = os.environ.get\("ALGO_CONFIG", "config.yaml"\)) Tj
+T* (    cfg = ConfigLoader.load\(cfg_path\)) Tj
+T* (    logger = setup_logger\(\)) Tj
+T* () Tj
+T* (    if os.environ.get\("BACKTEST_ONLY", "0"\) == "1":) Tj
+T* (        run_backtest_demo\(\)) Tj
+T* (        return) Tj
+T* () Tj
+T* (    engine = TradingEngine\(cfg, logger\)) Tj
+T* (    engine.run_forever\(\)) Tj
+T* () Tj
+T* () Tj
+T* (if __name__ == "__main__":) Tj
+T* (    main\(\)) Tj
+T* (```) Tj
+T* () Tj
+T* (## A-2\) `config.example.yaml`) Tj
+T* () Tj
+T* (```yaml) Tj
+T* (runtime:) Tj
+T* (  mode: paper            # paper | live) Tj
+T* (  base_ccy: KRW) Tj
+T* (  loop_interval_sec: 30) Tj
+T* (  max_daily_loss_pct: 2.0) Tj
+T* (  max_position_pct: 10.0) Tj
+T* (  kill_switch_file: KILL_SWITCH) Tj
+T* (  telegram_token: "") Tj
+T* (  telegram_chat_id: "") Tj
+T* () Tj
+T* (broker:) Tj
+T* (  upbit_access_key: "") Tj
+T* (  upbit_secret_key: "") Tj
+T* (  kiwoom_enabled: false) Tj
+T* () Tj
+T* (universe:) Tj
+T* (  - symbol: KRW-BTC) Tj
+T* (    asset_class: crypto_spot) Tj
+T* (    strategy: trend_following) Tj
+T* (  - symbol: KRW-ETH) Tj
+T* (    asset_class: crypto_spot) Tj
+T* (    strategy: mean_reversion) Tj
+T* (  - symbol: KRW-XRP) Tj
+T* (    asset_class: crypto_spot) Tj
+T* (    strategy: breakout) Tj
+T* (```) Tj
+T* () Tj
+T* (## A-3\) `requirements.txt`) Tj
+T* () Tj
+T* (```txt) Tj
+T* (requests>=2.32.0) Tj
+T* (PyYAML>=6.0.1) Tj
+ET
+endstream
+endobj
+22 0 obj
+<< /Length 62 >>
+stream
+BT /F1 9 Tf 40 800 Td 11 TL
+(```) Tj
+T* () Tj
+T* (?? ?.) Tj
+ET
+endstream
+endobj
+23 0 obj
+<< /Type /Pages /Kids [24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R] /Count 21 >>
+endobj
+24 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+endobj
+25 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 3 0 R >>
+endobj
+26 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 4 0 R >>
+endobj
+27 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 5 0 R >>
+endobj
+28 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 6 0 R >>
+endobj
+29 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 7 0 R >>
+endobj
+30 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 8 0 R >>
+endobj
+31 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 9 0 R >>
+endobj
+32 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 10 0 R >>
+endobj
+33 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 11 0 R >>
+endobj
+34 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 12 0 R >>
+endobj
+35 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 13 0 R >>
+endobj
+36 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 14 0 R >>
+endobj
+37 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 15 0 R >>
+endobj
+38 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 16 0 R >>
+endobj
+39 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 17 0 R >>
+endobj
+40 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 18 0 R >>
+endobj
+41 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 19 0 R >>
+endobj
+42 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 20 0 R >>
+endobj
+43 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 21 0 R >>
+endobj
+44 0 obj
+<< /Type /Page /Parent 23 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 22 0 R >>
+endobj
+45 0 obj
+<< /Type /Catalog /Pages 23 0 R >>
+endobj
+xref
+0 46
+0000000000 65535 f 
+0000000015 00000 n 
+0000000083 00000 n 
+0000001597 00000 n 
+0000003054 00000 n 
+0000004448 00000 n 
+0000005685 00000 n 
+0000006910 00000 n 
+0000008334 00000 n 
+0000009724 00000 n 
+0000011048 00000 n 
+0000013111 00000 n 
+0000015115 00000 n 
+0000017346 00000 n 
+0000019547 00000 n 
+0000022148 00000 n 
+0000024287 00000 n 
+0000026531 00000 n 
+0000028875 00000 n 
+0000031271 00000 n 
+0000033658 00000 n 
+0000036188 00000 n 
+0000037702 00000 n 
+0000037815 00000 n 
+0000038015 00000 n 
+0000038143 00000 n 
+0000038271 00000 n 
+0000038399 00000 n 
+0000038527 00000 n 
+0000038655 00000 n 
+0000038783 00000 n 
+0000038911 00000 n 
+0000039039 00000 n 
+0000039168 00000 n 
+0000039297 00000 n 
+0000039426 00000 n 
+0000039555 00000 n 
+0000039684 00000 n 
+0000039813 00000 n 
+0000039942 00000 n 
+0000040071 00000 n 
+0000040200 00000 n 
+0000040329 00000 n 
+0000040458 00000 n 
+0000040587 00000 n 
+0000040716 00000 n 
+trailer
+<< /Size 46 /Root 45 0 R >>
+startxref
+40767
+%%EOF
