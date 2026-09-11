@@ -1,0 +1,23 @@
+name: Submit GitHub Pages to IndexNow
+on:
+  push:
+    branches:
+      - gh-pages
+permissions:
+  contents: read
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit landing page and PDF
+        run: |
+          curl --fail --silent --show-error -G \
+            --data-urlencode "url=https://asdfvawet.github.io/-/" \
+            --data-urlencode "key=b7f63002c2274d15a4ce99a8e815c4a2" \
+            --data-urlencode "keyLocation=https://asdfvawet.github.io/-/b7f63002c2274d15a4ce99a8e815c4a2.txt" \
+            https://www.bing.com/indexnow
+          curl --fail --silent --show-error -G \
+            --data-urlencode "url=https://asdfvawet.github.io/-/test.pdf" \
+            --data-urlencode "key=b7f63002c2274d15a4ce99a8e815c4a2" \
+            --data-urlencode "keyLocation=https://asdfvawet.github.io/-/b7f63002c2274d15a4ce99a8e815c4a2.txt" \
+            https://www.bing.com/indexnow
