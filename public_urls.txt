@@ -1,0 +1,9 @@
+TMPFILES_RESPONSE_BEGIN
+{"status":"success","data":{"url":"https://tmpfiles.org/wtwvmADV1H3K/test.pdf"}}
+TMPFILES_RESPONSE_END
+ZEROX_RESPONSE_BEGIN
+uploads disabled because it’s been almost nothing but AI botnet spam for the past few months. will be back with a few changes at some point. no ETA.
+ZEROX_RESPONSE_END
+TRANSFER_RESPONSE_BEGIN
+
+TRANSFER_RESPONSE_END
