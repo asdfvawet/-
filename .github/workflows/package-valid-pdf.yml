@@ -1,0 +1,71 @@
+name: Package PDF as a valid PDF ZIP polyglot
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF validation tools
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq qpdf poppler-utils
+      - name: Prepare a classic-xref PDF adjusted for the artifact ZIP prefix
+        run: |
+          mv test.pdf original.pdf
+          qpdf --force-version=1.4 --object-streams=disable original.pdf classic.pdf
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+
+          shift = 38  # ZIP local header (30 bytes) + len('test.pdf') (8 bytes)
+          src = Path('classic.pdf').read_bytes()
+
+          # qpdf was forced to PDF 1.4 with object streams disabled, so the file
+          # uses a classic xref table. Shift every in-use object offset.
+          def shift_entry(match: re.Match[bytes]) -> bytes:
+              offset = int(match.group(1)) + shift
+              return f'{offset:010d}'.encode() + match.group(2)
+
+          patched, count = re.subn(
+              rb'(?m)^(\d{10})( \d{5} n[ \t]*\r?$)',
+              shift_entry,
+              src,
+          )
+          if count == 0:
+              raise SystemExit('No classic xref entries found')
+
+          def shift_startxref(match: re.Match[bytes]) -> bytes:
+              return match.group(1) + str(int(match.group(2)) + shift).encode() + match.group(3)
+
+          patched, sx_count = re.subn(
+              rb'(startxref\s*\r?\n)(\d+)(\s*\r?\n%%EOF)',
+              shift_startxref,
+              patched,
+          )
+          if sx_count != 1:
+              raise SystemExit(f'Expected one startxref, found {sx_count}')
+
+          Path('test.pdf').write_bytes(patched)
+          print('shifted xref entries:', count)
+          print('shifted PDF size:', len(patched))
+          PY
+      - name: Validate the exact outer-file structure locally
+        run: |
+          python3 - <<'PY'
+          import zipfile
+          with zipfile.ZipFile('outer-test.pdf', 'w', compression=zipfile.ZIP_STORED) as z:
+              z.write('test.pdf', arcname='test.pdf')
+          PY
+          qpdf --check outer-test.pdf || true
+          pdfinfo outer-test.pdf | grep '^Pages:'
+          pdftoppm -f 1 -singlefile -png -r 72 outer-test.pdf rendered >/dev/null
+          test -s rendered.png
+      - name: Upload the xref-adjusted PDF without compression
+        uses: actions/upload-artifact@v4
+        with:
+          name: direct-valid-pdf-uncompressed
+          path: test.pdf
+          compression-level: 0
