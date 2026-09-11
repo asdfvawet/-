@@ -1,0 +1,17 @@
+name: Build temporary PDF
+on:
+  push:
+    branches:
+      - chatgpt-pdf-build
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: xu-cheng/latex-action@v4
+        with:
+          root_file: test.tex
+      - uses: actions/upload-artifact@v4
+        with:
+          name: generated-pdf
+          path: test.pdf
