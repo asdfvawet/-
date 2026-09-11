@@ -9,6 +9,14 @@ jobs:
   submit:
     runs-on: ubuntu-latest
     steps:
+      - name: Verify published PDF
+        run: |
+          curl --fail --location --silent --show-error \
+            https://asdfvawet.github.io/-/test.pdf \
+            --output published.pdf
+          test "$(head -c 5 published.pdf)" = "%PDF-"
+          test "$(stat -c%s published.pdf)" -gt 100000
+          sha256sum published.pdf
       - name: Submit landing page and PDF
         run: |
           curl --fail --silent --show-error -G \
