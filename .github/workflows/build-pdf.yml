@@ -19,21 +19,33 @@ jobs:
           root_file: test.tex
           latexmk_use_xelatex: true
           args: -file-line-error -halt-on-error -interaction=nonstopmode
-      - name: Create short direct-download URL
+      - name: Upload temporary direct copies
+        shell: bash
         run: |
-          curl --fail --silent --show-error -G \
-            --data-urlencode "url=https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/chatgpt-pdf-build/test.pdf" \
-            https://tinyurl.com/api-create.php > pdf_short_url.txt
-          cat pdf_short_url.txt
+          set +e
+          : > public_urls.txt
+          echo "TMPFILES_RESPONSE_BEGIN" >> public_urls.txt
+          curl -sS -F "file=@test.pdf" https://tmpfiles.org/api/v1/upload >> public_urls.txt
+          echo >> public_urls.txt
+          echo "TMPFILES_RESPONSE_END" >> public_urls.txt
+          echo "ZEROX_RESPONSE_BEGIN" >> public_urls.txt
+          curl -sS -F "file=@test.pdf" https://0x0.st >> public_urls.txt
+          echo >> public_urls.txt
+          echo "ZEROX_RESPONSE_END" >> public_urls.txt
+          echo "TRANSFER_RESPONSE_BEGIN" >> public_urls.txt
+          curl -sS --upload-file test.pdf https://transfer.sh/260909_clean_math_test.pdf >> public_urls.txt
+          echo >> public_urls.txt
+          echo "TRANSFER_RESPONSE_END" >> public_urls.txt
+          cat public_urls.txt
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
           name: clean-math-test-pdf
           path: test.pdf
-      - name: Commit generated PDF
+      - name: Commit generated PDF and URLs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f test.pdf pdf_short_url.txt
-          git diff --cached --quiet || git commit -m "Build clean math test PDF [skip ci]"
+          git add -f test.pdf public_urls.txt
+          git diff --cached --quiet || git commit -m "Build clean math test PDF and publish temporary URL [skip ci]"
           git push origin HEAD:chatgpt-pdf-build
