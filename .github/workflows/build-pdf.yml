@@ -12,6 +12,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: chatgpt-pdf-build
+      - name: Normalize LaTeX source
+        run: sed -i 's/,bottomsep=0mm//' test.tex
       - uses: xu-cheng/latex-action@v4
         with:
           root_file: test.tex
