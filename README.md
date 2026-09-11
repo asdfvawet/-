@@ -1,3 +1,7 @@
-# Clean Math Test PDF
+# 260909 과천고1 공통수학2 문제·정답·해설 PDF
 
-[Download the clean problem set with answer key and solutions](./test.pdf)
+원본 시험지의 파란색 정답 표시와 펜 필기를 제거하고, 선택형 18문항과 논술형 2문항을 깔끔하게 다시 조판한 자료입니다. 마지막에 빠른 정답표와 전 문항 해설을 수록했습니다.
+
+## 다운로드
+
+[260909 과천고1 공통수학2 문제·정답·해설 PDF 열기](./test.pdf)
